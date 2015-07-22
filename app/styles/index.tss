@@ -4,7 +4,7 @@
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
-} ,
+}
 "TableViewRow[platform=android]": { 
     font: { 
        fontSize: '24' 

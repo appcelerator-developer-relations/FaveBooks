@@ -1,0 +1,15 @@
+<Alloy>
+    <Collection src="books"/>
+    <NavigationWindow>
+        <Window class="container" title="My Books">
+            <TableView dataCollection="books" id="bookTable">
+                <TableViewRow title="{title}" author="{author}" onClick="showBook"></TableViewRow>
+            </TableView>
+            <Toolbar bottom="0">
+                <Items>
+                    <Button id="add" title="Add book" onClick="addBook"/>
+                </Items>
+            </Toolbar>
+        </Window>
+    </NavigationWindow>>
+</Alloy>

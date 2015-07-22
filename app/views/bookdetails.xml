@@ -1,0 +1,8 @@
+<Alloy>
+    <Window class="container">
+        <View layout="vertical">
+            <Label id="titleLabel"></Label>
+            <Label id="authorLabel"></Label>
+        </View>
+    </Window>
+</Alloy>

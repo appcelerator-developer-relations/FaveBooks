@@ -1,0 +1,10 @@
+".container[platform=ios]": {
+	backgroundColor: 'white'
+}
+"TextField" : {
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	top: 10,
+	left: 20,
+	right: 20,
+	height: 40
+}
